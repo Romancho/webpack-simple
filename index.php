@@ -1,1 +1,11 @@
-<?php phpinfo();
+<html>
+<head>
+    <title>Test</title>
+</head>
+<body>
+<select id="font-select">
+    <option>Выберите шрифт...</option>
+</select>
+<script src="/build/build.js"></script>
+</body>
+</html>

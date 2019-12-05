@@ -1,4 +1,6 @@
 import '../scss/styles.scss';
 import $ from 'jquery';
+global.jQuery = $;
+global.$ = $;
 
-global.jQuery = global.$ = $;
+require('./scripts/SelectFonts');
