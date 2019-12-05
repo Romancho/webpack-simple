@@ -1,11 +1,13 @@
 const select = document.getElementById("font-select");
 const classNames = ['class01', 'class02'];
+const fontsNames = ['Arial', 'Verdana'];
 
 const createSelect = function () {
   for (let i = 0; i < classNames.length; i++) {
     let opt = classNames[i];
+    let fonts = fontsNames[i];
     let el = document.createElement("option");
-        el.textContent = opt;
+        el.textContent = fonts;
         el.value = opt;
         select.appendChild(el);
   }
