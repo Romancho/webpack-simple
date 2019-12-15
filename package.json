@@ -1,4 +1,10 @@
 {
+  "name": "webpack-simple",
+  "version": "1.0.0",
+  "description": "Webpack simple cinfig",
+  "repository": "git@github.com:Romancho/webpack-simple.git",
+  "license": "UNLICENSED",
+  "config": {},
   "scripts": {
     "build": "webpack --config webpack.config.js"
   },
